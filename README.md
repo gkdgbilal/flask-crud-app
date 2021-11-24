@@ -4,9 +4,9 @@ first : `pip install flask`
 
 -- `pip install flask-sqlalchemy`
 
--- 
-`>>> python
+---
+>>> python
 >>> from movies import db
->>> db.create_all()`
+>>> db.create_all()
 
 -- `python api.py`
